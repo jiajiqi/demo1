@@ -1,3 +1,35 @@
 .p{
     color:red;
 }
+.headline{
+    height: 35px;
+    background: white;
+}
+.firstline{
+    height: 60px;
+    background:white;
+    font-size: 16px;
+    color: grey;
+}
+.secondline{
+    height: 380px;
+    background: palevioletred;
+}
+.lastline{
+    height: 200px;
+    background: white;
+}
+.addline{
+    height: 100px;
+    background: grey;
+}
+.f{
+    color: black;
+}
+.l{
+    height: 380px;
+}
+.phone{
+    width: 100px;
+    height: 100px;
+}

@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom'
+import HomePage from './HomePage/homepage';
 
 class IndexPage extends React.Component{
     render(){
         return(
             <div>
-               
+               <BrowserRouter>
+               <Switch>
+               <Route path="/homepage" exact component={HomePage}></Route>
+               <Redirect to="/homepage"></Redirect> 
+               </Switch>
+               </BrowserRouter>
             </div>
         )
     }
