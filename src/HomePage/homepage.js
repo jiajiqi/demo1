@@ -43,10 +43,10 @@ export default class HomePage extends React.Component{
                     <Col span={24}>
                     <Carousel autoplay className={HomePageCss.l}>
                         <div>
-                           <img src="/taylor.jpg" width={1350} height={380}></img>
+                           <img src="/taylor.jpg" width={1265} height={380}></img>
                         </div>
                         <div>
-                           <img src="/taylor.jpg" width={1350} height={380}></img>
+                           <img src="/taylor.jpg" width={1265} height={380}></img>
                         </div>
                         <div>
                             <h3>3</h3>
@@ -63,25 +63,25 @@ export default class HomePage extends React.Component{
                     <Col span={2}></Col>
                     <Col span={5}>
                     <div className={HomePageCss.phone}>
-                            <Icon type="home" style={{fontSize:'40px'}}/>
+                            <Icon type="home" style={{fontSize:'40px'}} className={HomePageCss.phone1}/>
                             <p >首页</p>
                         </div>
                     </Col>
                     <Col span={5}>
                         <div className={HomePageCss.phone}>
-                            <Icon type="user" style={{fontSize:'40px'}}/>
+                            <Icon type="user" style={{fontSize:'40px'}} className={HomePageCss.phone1}/>
                             <p >个人主页</p>
                         </div>
                     </Col>
                     <Col span={5}>
                     <div className={HomePageCss.phone}>
-                            <Icon type="sketch" style={{fontSize:'40px'}}/>
+                            <Icon type="sketch" style={{fontSize:'40px'}} className={HomePageCss.phone1}/>
                             <p >会员中心</p>
                         </div>
                     </Col>
                     <Col span={5}>
                         <div className={HomePageCss.phone}>
-                            <Icon type="phone" style={{fontSize:'40px'}}/>
+                            <Icon type="phone" style={{fontSize:'40px'}} className={HomePageCss.phone1}/>
                             <p >在线客服</p>
                         </div>
                     </Col>
