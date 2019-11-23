@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from'react-router-dom';
-import {Layout,Row, Col,Input,Carousel,Icon} from 'antd';
+import {Layout,Row, Col,Input,Carousel,Icon,Button} from 'antd';
 
 var HomePageCss= require('./homepage.css')
 export default class HomePage extends React.Component{
@@ -35,7 +35,15 @@ export default class HomePage extends React.Component{
                     <Col span={2}>
                         <Link className={HomePageCss.f}>联系我们</Link>
                     </Col>
-                    <Col span={3}></Col>
+                    <Col span={1}>
+                    <Link className={HomePageCss.f}><Button type="primary">登录</Button></Link>
+                    </Col>
+                    <Col span={1}>
+                    <p>|</p>
+                    </Col>
+                    <Col span={1}>
+                    <Link className={HomePageCss.f}><Button type="primary">注册</Button></Link>
+                    </Col>
                 </Row>
                 </div>
                 <div className={HomePageCss.secondline}>
