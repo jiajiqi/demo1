@@ -43,10 +43,10 @@ export default class HomePage extends React.Component{
                     <Col span={24}>
                     <Carousel autoplay className={HomePageCss.l}>
                         <div>
-                           <img src="/taylor.jpg" width={1265} height={380}></img>
+                           <img src="/taylor.jpg" width={'100%'} height={380}></img>
                         </div>
                         <div>
-                           <img src="/taylor.jpg" width={1265} height={380}></img>
+                           <img src="/taylor.jpg" width={'100%'} height={380}></img>
                         </div>
                         <div>
                             <h3>3</h3>
