@@ -15,6 +15,7 @@ class IndexPage extends React.Component{
                <Switch>
                <Route path="/homepage" exact component={HomePage}></Route>
                <Route path="/auth/login"   component={Login}></Route>
+               <Route path="/home"   component={HomePage}></Route>
                <Route path="/"   component={Admin}></Route>
                <Redirect to="/homepage"></Redirect> 
                </Switch>
